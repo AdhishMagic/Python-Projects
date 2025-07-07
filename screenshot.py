@@ -8,7 +8,7 @@ def screenshot():
     time.sleep(5)
     screenshot = pyautogui.screenshot(name)
     screenshot.show()
-    print(f'Screenshot saved as {name}')
+    print(f'Screenshot saved as {name}')  
 
 root = tk.Tk()
 frame = tk.Frame(root)
